@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Sample Product",
+      "category": "Handicraft",
+      "location": "Kerala",
+      "price": 100,
+      "vendors": [
+        {
+          "vendor_id": "vendor001",
+          "stock": 20,
+          "rating": 4.7
+        }
+      ],
+      "description": "A beautiful handcrafted product.",
+      "images": [],
+      "tags": ["craft", "kerala"]
+    }
+  ]
+  
