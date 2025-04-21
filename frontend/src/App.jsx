@@ -9,18 +9,30 @@ import LoginSignInPage from './components/Front-End-components/login-signIn-page
 import PaymentGateway from './components/Front-End-components/paymentGateway'
 import ProductPage from './components/Front-End-components/product-page'
 
-function App() {
+// function App() {
  
+  // return (
+  //   <>
+  //    <Cart/>
+  //    <DashBoard/>
+  //    <Likes/>
+  //    <LoginSignInPage/>
+  //    <PaymentGateway/>
+  //    <ProductPage/>
+  //   </>
+  // )
+// }
+import ProductList from "./components/ProductList";
+import ProductDetails from './components/productDetails'
+
+
+function App() {
   return (
-    <>
-     <Cart/>
-     <DashBoard/>
-     <Likes/>
-     <LoginSignInPage/>
-     <PaymentGateway/>
-     <ProductPage/>
-    </>
-  )
+    <div>
+      <h1>Ethnic Ecom Platform</h1>
+      <ProductList/>
+    </div>
+  );
 }
 
 export default App
