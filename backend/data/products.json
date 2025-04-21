@@ -1,20 +1,1742 @@
 [
     {
-      "id": 1,
-      "name": "Sample Product",
-      "category": "Handicraft",
-      "location": "Kerala",
-      "price": 100,
-      "vendors": [
-        {
-          "vendor_id": "vendor001",
-          "stock": 20,
-          "rating": 4.7
-        }
-      ],
-      "description": "A beautiful handcrafted product.",
-      "images": [],
-      "tags": ["craft", "kerala"]
+        "id": 1,
+        "name": "Tuna Fish Canned",
+        "category": "Food (Non-perishable)",
+        "location": "Andaman and Nicobar Islands",
+        "price": 120,
+        "vendors": [
+            {
+                "vendor_id": "seafood_andaman_01",
+                "stock": 150,
+                "rating": 4.5
+            },
+            {
+                "vendor_id": "island_foods_02",
+                "stock": 80,
+                "rating": 4.2
+            }
+        ],
+        "description": "Premium canned tuna fish, a staple protein source in the islands. Rich in omega-3 and perfect for salads or sandwiches.",
+        "images": [
+            "tuna_can_1.jpg",
+            "tuna_can_2.jpg"
+        ],
+        "tags": [
+            "protein",
+            "non-perishable",
+            "fishing"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Coconut Chips",
+        "category": "Food (Non-perishable)",
+        "location": "Andaman and Nicobar Islands",
+        "price": 75,
+        "vendors": [
+            {
+                "vendor_id": "tropical_snacks_03",
+                "stock": 200,
+                "rating": 4.7
+            }
+        ],
+        "description": "Crunchy dried coconut chips, lightly salted. Made from fresh island coconuts.",
+        "images": [
+            "coconut_chips_1.jpg"
+        ],
+        "tags": [
+            "vegan",
+            "snack",
+            "organic"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Lungi",
+        "category": "Apparel",
+        "location": "Andaman and Nicobar Islands",
+        "price": 250,
+        "vendors": [
+            {
+                "vendor_id": "island_textiles_04",
+                "stock": 45,
+                "rating": 4.3
+            }
+        ],
+        "description": "Traditional checked-pattern lungi for men, made from breathable cotton.",
+        "images": [
+            "lungi_blue.jpg",
+            "lungi_red.jpg"
+        ],
+        "tags": [
+            "traditional",
+            "men",
+            "cotton"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Tropical Cotton Sarongs",
+        "category": "Apparel",
+        "location": "Andaman and Nicobar Islands",
+        "price": 350,
+        "vendors": [
+            {
+                "vendor_id": "island_textiles_04",
+                "stock": 60,
+                "rating": 4.6
+            },
+            {
+                "vendor_id": "seaside_crafts_05",
+                "stock": 30,
+                "rating": 4.4
+            }
+        ],
+        "description": "Lightweight sarongs with vibrant island prints. Unisex design.",
+        "images": [
+            "sarong_1.jpg",
+            "sarong_2.jpg"
+        ],
+        "tags": [
+            "beachwear",
+            "unisex",
+            "handmade"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Shell Jewelry",
+        "category": "Jewelry",
+        "location": "Andaman and Nicobar Islands",
+        "price": 180,
+        "vendors": [
+            {
+                "vendor_id": "seaside_crafts_05",
+                "stock": 25,
+                "rating": 4.8
+            }
+        ],
+        "description": "Necklaces and earrings made from cowrie and conch shells.",
+        "images": [
+            "shell_necklace.jpg"
+        ],
+        "tags": [
+            "handmade",
+            "seashell",
+            "eco-friendly"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Coral Jewelry",
+        "category": "Jewelry",
+        "location": "Andaman and Nicobar Islands",
+        "price": 400,
+        "vendors": [
+            {
+                "vendor_id": "ocean_treasures_06",
+                "stock": 15,
+                "rating": 4.9
+            }
+        ],
+        "description": "Ethically sourced coral pendants and earrings. Each piece is unique.",
+        "images": [
+            "coral_pendant.jpg"
+        ],
+        "tags": [
+            "luxury",
+            "marine",
+            "artisan"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Driftwood Sculptures",
+        "category": "Home Decor",
+        "location": "Andaman and Nicobar Islands",
+        "price": 1200,
+        "vendors": [
+            {
+                "vendor_id": "island_art_07",
+                "stock": 10,
+                "rating": 5.0
+            }
+        ],
+        "description": "Hand-carved sculptures of dolphins, turtles, and abstract shapes from beach driftwood.",
+        "images": [
+            "driftwood_dolphin.jpg"
+        ],
+        "tags": [
+            "art",
+            "eco-conscious",
+            "statement-piece"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Shell Decor",
+        "category": "Home Decor",
+        "location": "Andaman and Nicobar Islands",
+        "price": 600,
+        "vendors": [
+            {
+                "vendor_id": "seaside_crafts_05",
+                "stock": 20,
+                "rating": 4.5
+            }
+        ],
+        "description": "Seashell-encrusted photo frames and lamps. Brings coastal charm to any space.",
+        "images": [
+            "shell_frame.jpg",
+            "shell_lamp.jpg"
+        ],
+        "tags": [
+            "decor",
+            "gift",
+            "handcrafted"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Pesarattu",
+        "category": "Food",
+        "location": "Andhra Pradesh",
+        "price": 150,
+        "vendors": [
+            {
+                "vendor_id": "ap_foods_01",
+                "stock": 100,
+                "rating": 4.6
+            },
+            {
+                "vendor_id": "telugu_spices_02",
+                "stock": 75,
+                "rating": 4.4
+            }
+        ],
+        "description": "A savory pancake made from green gram (moong dal), often served with chutneys and pickle. It is a non-perishable dry product.",
+        "images": [
+            "pesarattu_pack.jpg",
+            "pesarattu_prepared.jpg"
+        ],
+        "tags": [
+            "snack",
+            "vegan",
+            "gluten-free"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Pickled Gongura",
+        "category": "Food",
+        "location": "Andhra Pradesh",
+        "price": 200,
+        "vendors": [
+            {
+                "vendor_id": "ap_pickles_03",
+                "stock": 50,
+                "rating": 4.8
+            }
+        ],
+        "description": "A sour-tasting, dried leaf pickle made from Gongura (sorrel leaves), a popular item in Andhra Pradesh cuisine.",
+        "images": [
+            "gongura_pickle.jpg"
+        ],
+        "tags": [
+            "condiment",
+            "spicy",
+            "traditional"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Dhoti",
+        "category": "Apparel",
+        "location": "Andhra Pradesh",
+        "price": 400,
+        "vendors": [
+            {
+                "vendor_id": "ap_textiles_04",
+                "stock": 60,
+                "rating": 4.5
+            }
+        ],
+        "description": "A traditional garment worn by men, typically made of cotton, often paired with a kurta or shirt. Common for special occasions.",
+        "images": [
+            "dhoti_white.jpg",
+            "dhoti_cream.jpg"
+        ],
+        "tags": [
+            "traditional",
+            "men",
+            "cotton"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Mangalagiri Saree",
+        "category": "Apparel",
+        "location": "Andhra Pradesh",
+        "price": 2500,
+        "vendors": [
+            {
+                "vendor_id": "mangalagiri_weavers_05",
+                "stock": 25,
+                "rating": 4.9
+            },
+            {
+                "vendor_id": "ap_silks_06",
+                "stock": 15,
+                "rating": 4.7
+            }
+        ],
+        "description": "Handwoven sarees known for their intricate designs and patterns, made from pure cotton or silk.",
+        "images": [
+            "mangalagiri_saree_1.jpg",
+            "mangalagiri_saree_2.jpg"
+        ],
+        "tags": [
+            "handmade",
+            "premium",
+            "women"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Nizam Jewelry",
+        "category": "Jewelry",
+        "location": "Andhra Pradesh",
+        "price": 15000,
+        "vendors": [
+            {
+                "vendor_id": "hyderabad_golds_07",
+                "stock": 5,
+                "rating": 5.0
+            }
+        ],
+        "description": "Elaborate gold pieces inspired by the Nizams, featuring precious stones like rubies and emeralds.",
+        "images": [
+            "nizam_necklace.jpg"
+        ],
+        "tags": [
+            "luxury",
+            "heritage",
+            "gold"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Mangalsutra",
+        "category": "Jewelry",
+        "location": "Andhra Pradesh",
+        "price": 8000,
+        "vendors": [
+            {
+                "vendor_id": "telugu_jewelers_08",
+                "stock": 12,
+                "rating": 4.6
+            }
+        ],
+        "description": "Traditional necklace worn by married women, made of gold and black beads.",
+        "images": [
+            "mangalsutra_ap.jpg"
+        ],
+        "tags": [
+            "wedding",
+            "traditional",
+            "gold"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Etikoppaka Toys",
+        "category": "Home Decor",
+        "location": "Andhra Pradesh",
+        "price": 350,
+        "vendors": [
+            {
+                "vendor_id": "etikoppaka_crafts_09",
+                "stock": 40,
+                "rating": 4.7
+            }
+        ],
+        "description": "Colorful handcrafted wooden toys made using traditional techniques and natural dyes.",
+        "images": [
+            "etikoppaka_toy_set.jpg"
+        ],
+        "tags": [
+            "eco-friendly",
+            "handmade",
+            "kids"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Kalamkari Wall Hangings",
+        "category": "Home Decor",
+        "location": "Andhra Pradesh",
+        "price": 1200,
+        "vendors": [
+            {
+                "vendor_id": "kalamkari_art_10",
+                "stock": 20,
+                "rating": 4.8
+            }
+        ],
+        "description": "Hand-painted or block-printed cotton textiles featuring mythological themes and vibrant designs.",
+        "images": [
+            "kalamkari_hanging.jpg"
+        ],
+        "tags": [
+            "art",
+            "traditional",
+            "decor"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Akara (Fermented Soybean)",
+        "category": "Food (Non-perishable)",
+        "location": "Arunachal Pradesh",
+        "price": 130,
+        "vendors": [
+            {
+                "vendor_id": "arunachal_delights_01",
+                "stock": 90,
+                "rating": 4.4
+            }
+        ],
+        "description": "A traditional fermented soybean dish known for its preservation properties, commonly used as a flavorful side in Arunachal cuisine.",
+        "images": [
+            "akara_fermented.jpg"
+        ],
+        "tags": [
+            "fermented",
+            "non-perishable",
+            "tribal"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Dried Fish",
+        "category": "Food (Non-perishable)",
+        "location": "Arunachal Pradesh",
+        "price": 160,
+        "vendors": [
+            {
+                "vendor_id": "mountain_flavors_02",
+                "stock": 120,
+                "rating": 4.6
+            }
+        ],
+        "description": "Sun-dried fish preserved using traditional tribal techniques. A common addition to stews and soups in the region.",
+        "images": [
+            "dried_fish_ap.jpg"
+        ],
+        "tags": [
+            "protein",
+            "preserved",
+            "traditional"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Mishmi Shawl",
+        "category": "Apparel",
+        "location": "Arunachal Pradesh",
+        "price": 1800,
+        "vendors": [
+            {
+                "vendor_id": "mishmi_weaves_03",
+                "stock": 35,
+                "rating": 4.8
+            }
+        ],
+        "description": "Handwoven shawls by the Mishmi tribe featuring bold patterns and vibrant colors. Known for warmth and craftsmanship.",
+        "images": [
+            "mishmi_shawl_1.jpg",
+            "mishmi_shawl_2.jpg"
+        ],
+        "tags": [
+            "handwoven",
+            "tribal",
+            "cotton"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Eri Silk Shawl",
+        "category": "Apparel",
+        "location": "Arunachal Pradesh",
+        "price": 2200,
+        "vendors": [
+            {
+                "vendor_id": "eri_silk_tribes_04",
+                "stock": 28,
+                "rating": 4.7
+            }
+        ],
+        "description": "Soft and breathable Eri silk shawl, sustainably produced and widely worn in Arunachal\u00e2\u20ac\u2122s tribal areas.",
+        "images": [
+            "eri_silk_shawl.jpg"
+        ],
+        "tags": [
+            "sustainable",
+            "natural_fiber",
+            "luxury"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Horn and Bone Jewelry",
+        "category": "Jewelry",
+        "location": "Arunachal Pradesh",
+        "price": 450,
+        "vendors": [
+            {
+                "vendor_id": "tribal_heritage_05",
+                "stock": 40,
+                "rating": 4.5
+            }
+        ],
+        "description": "Unique handmade earrings and necklaces crafted from horn and bone, traditionally worn by Arunachal tribes.",
+        "images": [
+            "horn_bone_jewelry.jpg"
+        ],
+        "tags": [
+            "eco-friendly",
+            "tribal",
+            "handcrafted"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Beaded Necklaces",
+        "category": "Jewelry",
+        "location": "Arunachal Pradesh",
+        "price": 320,
+        "vendors": [
+            {
+                "vendor_id": "tribal_beads_06",
+                "stock": 55,
+                "rating": 4.6
+            }
+        ],
+        "description": "Colorful necklaces made from natural stones and beads, commonly worn during festivals and cultural events.",
+        "images": [
+            "beaded_necklace_ap.jpg"
+        ],
+        "tags": [
+            "colorful",
+            "traditional",
+            "festive"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Bamboo Crafts",
+        "category": "Home Decor",
+        "location": "Arunachal Pradesh",
+        "price": 700,
+        "vendors": [
+            {
+                "vendor_id": "bamboo_creations_07",
+                "stock": 30,
+                "rating": 4.7
+            }
+        ],
+        "description": "Functional and decorative bamboo products like baskets, mats, and organizers made by local artisans.",
+        "images": [
+            "bamboo_basket.jpg",
+            "bamboo_tray.jpg"
+        ],
+        "tags": [
+            "eco-conscious",
+            "bamboo",
+            "handmade"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Handwoven Rugs",
+        "category": "Home Decor",
+        "location": "Arunachal Pradesh",
+        "price": 1800,
+        "vendors": [
+            {
+                "vendor_id": "tribal_rugs_08",
+                "stock": 20,
+                "rating": 4.8
+            }
+        ],
+        "description": "Durable wool and silk rugs with traditional tribal motifs, ideal for adding warmth and character to home spaces.",
+        "images": [
+            "tribal_rug_ap.jpg"
+        ],
+        "tags": [
+            "wool",
+            "vibrant",
+            "handwoven"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Sattu",
+        "category": "Food (Non-perishable)",
+        "location": "Bihar",
+        "price": 120,
+        "vendors": [
+            {
+                "vendor_id": "bihar_flavors_01",
+                "stock": 200,
+                "rating": 4.5
+            }
+        ],
+        "description": "A protein-rich flour made from roasted chickpeas, commonly used in Bihar for drinks, stuffing, and quick meals.",
+        "images": [
+            "sattu_flour.jpg"
+        ],
+        "tags": [
+            "protein",
+            "roasted",
+            "healthy",
+            "shelf-stable"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Makhana (Fox Nut)",
+        "category": "Food (Non-perishable)",
+        "location": "Bihar",
+        "price": 180,
+        "vendors": [
+            {
+                "vendor_id": "lotus_crunch_02",
+                "stock": 180,
+                "rating": 4.7
+            }
+        ],
+        "description": "Crispy lotus seeds, lightly roasted and seasoned. A popular Bihari snack packed with nutrients.",
+        "images": [
+            "makhana_snack.jpg"
+        ],
+        "tags": [
+            "snack",
+            "crunchy",
+            "lotus",
+            "non-perishable"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Bihari Saree",
+        "category": "Apparel",
+        "location": "Bihar",
+        "price": 2200,
+        "vendors": [
+            {
+                "vendor_id": "bhagalpur_silks_03",
+                "stock": 40,
+                "rating": 4.6
+            }
+        ],
+        "description": "Elegant cotton and silk sarees from the Bhagalpur region, known for intricate designs and weaving tradition.",
+        "images": [
+            "bihari_saree.jpg"
+        ],
+        "tags": [
+            "silk",
+            "cotton",
+            "traditional",
+            "woven"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Chanderi Fabric",
+        "category": "Apparel",
+        "location": "Bihar",
+        "price": 1500,
+        "vendors": [
+            {
+                "vendor_id": "chanderi_classics_04",
+                "stock": 60,
+                "rating": 4.5
+            }
+        ],
+        "description": "Lightweight, semi-transparent fabric handwoven using silk and cotton blend, ideal for ethnic wear.",
+        "images": [
+            "chanderi_fabric.jpg"
+        ],
+        "tags": [
+            "lightweight",
+            "handwoven",
+            "ethnic"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Bihar Silver Jewelry",
+        "category": "Jewelry",
+        "location": "Bihar",
+        "price": 850,
+        "vendors": [
+            {
+                "vendor_id": "bihar_jewels_05",
+                "stock": 45,
+                "rating": 4.6
+            }
+        ],
+        "description": "Ornate silver jewelry made by local artisans, worn daily and during festivals across Bihar.",
+        "images": [
+            "silver_jewelry_bihar.jpg"
+        ],
+        "tags": [
+            "silver",
+            "handcrafted",
+            "traditional",
+            "dailywear"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Kundan Jewelry",
+        "category": "Jewelry",
+        "location": "Bihar",
+        "price": 2400,
+        "vendors": [
+            {
+                "vendor_id": "kundan_craft_06",
+                "stock": 25,
+                "rating": 4.8
+            }
+        ],
+        "description": "Gold foil-set jewelry with embedded gemstones, popularly used in bridal wear in Bihar.",
+        "images": [
+            "kundan_jewelry_bihar.jpg"
+        ],
+        "tags": [
+            "bridal",
+            "stonework",
+            "gold",
+            "festive"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Madhubani Paintings",
+        "category": "Home Decor",
+        "location": "Bihar",
+        "price": 1300,
+        "vendors": [
+            {
+                "vendor_id": "madhubani_arts_07",
+                "stock": 35,
+                "rating": 4.9
+            }
+        ],
+        "description": "Intricately designed folk paintings on handmade paper and cloth, showcasing Bihari cultural tales and deities.",
+        "images": [
+            "madhubani_art.jpg"
+        ],
+        "tags": [
+            "folkart",
+            "vibrant",
+            "wall",
+            "traditional"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Terracotta Craft",
+        "category": "Home Decor",
+        "location": "Bihar",
+        "price": 900,
+        "vendors": [
+            {
+                "vendor_id": "terracotta_bihar_08",
+                "stock": 38,
+                "rating": 4.7
+            }
+        ],
+        "description": "Hand-shaped terracotta figurines and decor items inspired by nature and folklore of Bihar.",
+        "images": [
+            "terracotta_bihar.jpg"
+        ],
+        "tags": [
+            "clay",
+            "handmade",
+            "natural",
+            "decorative"
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Chandigarh Chana Masala Mix",
+        "category": "Food (Non-perishable)",
+        "location": "Chandigarh",
+        "price": 110,
+        "vendors": [
+            {
+                "vendor_id": "spicehouse_chd_01",
+                "stock": 180,
+                "rating": 4.5
+            }
+        ],
+        "description": "A robust blend of spices for making authentic North Indian Chana Masala. Shelf-stable and easy to use for quick meals.",
+        "images": [
+            "chana_masala_mix.jpg"
+        ],
+        "tags": [
+            "spices",
+            "non-perishable",
+            "easy-cook",
+            "flavorful"
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Paneer Tikka Spice Mix",
+        "category": "Food (Non-perishable)",
+        "location": "Chandigarh",
+        "price": 130,
+        "vendors": [
+            {
+                "vendor_id": "flavorfusion_chd_02",
+                "stock": 160,
+                "rating": 4.6
+            }
+        ],
+        "description": "A ready-to-use spice mix for marinating paneer for grilling or baking. Ideal for making restaurant-style Paneer Tikka at home.",
+        "images": [
+            "paneer_tikka_mix.jpg"
+        ],
+        "tags": [
+            "grill",
+            "spices",
+            "drymix",
+            "snack"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Chandigarh Woolen Shawls",
+        "category": "Apparel",
+        "location": "Chandigarh",
+        "price": 1800,
+        "vendors": [
+            {
+                "vendor_id": "warmthreads_chd_03",
+                "stock": 50,
+                "rating": 4.7
+            }
+        ],
+        "description": "Handwoven woolen shawls known for warmth and vibrant colors, designed for winter wear in Chandigarh.",
+        "images": [
+            "chandigarh_woolen_shawl.jpg"
+        ],
+        "tags": [
+            "wool",
+            "handwoven",
+            "warm",
+            "fashion"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Patiala Salwar Kameez",
+        "category": "Apparel",
+        "location": "Chandigarh",
+        "price": 1600,
+        "vendors": [
+            {
+                "vendor_id": "ethnicedge_chd_04",
+                "stock": 60,
+                "rating": 4.5
+            }
+        ],
+        "description": "Traditional outfit featuring pleated salwar with a kameez, known for comfort and vibrant patterns. Popular across Punjab and Chandigarh.",
+        "images": [
+            "patiala_salwar_kameez.jpg"
+        ],
+        "tags": [
+            "traditional",
+            "cotton",
+            "ethnicwear",
+            "comfortable"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Kundan and Meenakari Jewelry",
+        "category": "Jewelry",
+        "location": "Chandigarh",
+        "price": 2500,
+        "vendors": [
+            {
+                "vendor_id": "royaljewel_chd_05",
+                "stock": 35,
+                "rating": 4.8
+            }
+        ],
+        "description": "Exquisite Kundan and Meenakari jewelry sets with intricate designs and semi-precious stones. Perfect for weddings and festive wear.",
+        "images": [
+            "kundan_meenakari_chd.jpg"
+        ],
+        "tags": [
+            "kundan",
+            "meenakari",
+            "bridal",
+            "festive"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Silver and Gold Plated Bangles",
+        "category": "Jewelry",
+        "location": "Chandigarh",
+        "price": 950,
+        "vendors": [
+            {
+                "vendor_id": "festiveglow_chd_06",
+                "stock": 48,
+                "rating": 4.6
+            }
+        ],
+        "description": "Elegant bangles crafted in silver and coated with gold plating, commonly worn in traditional functions and weddings.",
+        "images": [
+            "silver_gold_bangles.jpg"
+        ],
+        "tags": [
+            "bangles",
+            "goldplated",
+            "silver",
+            "traditional"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Brass Artifacts",
+        "category": "Home Decor",
+        "location": "Chandigarh",
+        "price": 1150,
+        "vendors": [
+            {
+                "vendor_id": "metalcraft_chd_07",
+                "stock": 40,
+                "rating": 4.7
+            }
+        ],
+        "description": "Decorative brass items such as figurines and plates. Handmade by artisans and popular for enhancing home aesthetics.",
+        "images": [
+            "brass_artifacts_chd.jpg"
+        ],
+        "tags": [
+            "brass",
+            "handcrafted",
+            "decor",
+            "cultural"
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Madhubani Paintings (Chandigarh Edition)",
+        "category": "Home Decor",
+        "location": "Chandigarh",
+        "price": 1250,
+        "vendors": [
+            {
+                "vendor_id": "madhubani_style_08",
+                "stock": 32,
+                "rating": 4.8
+            }
+        ],
+        "description": "Intricate folk art adapted in Chandigarh homes, portraying vivid cultural scenes with bright colors and fine detail.",
+        "images": [
+            "madhubani_chandigarh.jpg"
+        ],
+        "tags": [
+            "folkart",
+            "painting",
+            "vibrant",
+            "wallart"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "Chana Sattu",
+        "category": "Food (Non-perishable)",
+        "location": "Chhattisgarh",
+        "price": 95,
+        "vendors": [
+            {
+                "vendor_id": "sattunation_cg_01",
+                "stock": 200,
+                "rating": 4.4
+            }
+        ],
+        "description": "Nutritious roasted chickpea flour, used in traditional energy drinks and snacks in Chhattisgarh. A versatile and shelf-stable food.",
+        "images": [
+            "chana_sattu.jpg"
+        ],
+        "tags": [
+            "flour",
+            "chickpea",
+            "energy",
+            "non-perishable"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Achar (Pickles)",
+        "category": "Food (Non-perishable)",
+        "location": "Chhattisgarh",
+        "price": 120,
+        "vendors": [
+            {
+                "vendor_id": "tangytwist_cg_02",
+                "stock": 150,
+                "rating": 4.6
+            }
+        ],
+        "description": "Homemade-style pickles crafted with mango, lemon, and local spices. Preserved and aged for rich flavors and long shelf life.",
+        "images": [
+            "achar_pickles_cg.jpg"
+        ],
+        "tags": [
+            "pickles",
+            "spices",
+            "preserved",
+            "homemade"
+        ]
+    },
+    {
+        "id": 43,
+        "name": "Kosa Silk Saree",
+        "category": "Apparel",
+        "location": "Chhattisgarh",
+        "price": 3200,
+        "vendors": [
+            {
+                "vendor_id": "kosaweaves_cg_03",
+                "stock": 40,
+                "rating": 4.8
+            }
+        ],
+        "description": "Elegant sarees handwoven with Kosa silk, a heritage fabric known for its strength and luxurious texture in Chhattisgarh.",
+        "images": [
+            "kosa_silk_saree.jpg"
+        ],
+        "tags": [
+            "silk",
+            "handwoven",
+            "heritage",
+            "traditional"
+        ]
+    },
+    {
+        "id": 44,
+        "name": "Lal Chhattisgarhi Saree",
+        "category": "Apparel",
+        "location": "Chhattisgarh",
+        "price": 1900,
+        "vendors": [
+            {
+                "vendor_id": "lalthreads_cg_04",
+                "stock": 55,
+                "rating": 4.5
+            }
+        ],
+        "description": "Traditional red sarees with golden borders and motifs, deeply rooted in the cultural identity of Chhattisgarh.",
+        "images": [
+            "lal_chhattisgarhi_saree.jpg"
+        ],
+        "tags": [
+            "red",
+            "ethnic",
+            "festivewear",
+            "culture"
+        ]
+    },
+    {
+        "id": 45,
+        "name": "Bamboo Jewelry",
+        "category": "Jewelry",
+        "location": "Chhattisgarh",
+        "price": 650,
+        "vendors": [
+            {
+                "vendor_id": "naturebling_cg_05",
+                "stock": 70,
+                "rating": 4.4
+            }
+        ],
+        "description": "Eco-friendly jewelry made from finely crafted bamboo. Lightweight and stylish, reflecting tribal aesthetics of the region.",
+        "images": [
+            "bamboo_jewelry_cg.jpg"
+        ],
+        "tags": [
+            "bamboo",
+            "eco-friendly",
+            "tribal",
+            "handmade"
+        ]
+    },
+    {
+        "id": 46,
+        "name": "Silver Tribal Jewelry",
+        "category": "Jewelry",
+        "location": "Chhattisgarh",
+        "price": 1450,
+        "vendors": [
+            {
+                "vendor_id": "tribalsilver_cg_06",
+                "stock": 38,
+                "rating": 4.7
+            }
+        ],
+        "description": "Authentic tribal-style silver jewelry crafted with intricate traditional designs from Chhattisgarh's skilled artisans.",
+        "images": [
+            "silver_jewelry_cg.jpg"
+        ],
+        "tags": [
+            "silver",
+            "tribal",
+            "craftsmanship",
+            "heritage"
+        ]
+    },
+    {
+        "id": 47,
+        "name": "Terracotta Craft",
+        "category": "Home Decor",
+        "location": "Chhattisgarh",
+        "price": 780,
+        "vendors": [
+            {
+                "vendor_id": "terracottaworks_cg_07",
+                "stock": 60,
+                "rating": 4.6
+            }
+        ],
+        "description": "Handcrafted terracotta decor including figurines and traditional pottery. Known for earthy aesthetics and cultural roots.",
+        "images": [
+            "terracotta_cg.jpg"
+        ],
+        "tags": [
+            "pottery",
+            "handmade",
+            "decor",
+            "clay"
+        ]
+    },
+    {
+        "id": 48,
+        "name": "Dhokra Art Sculpture",
+        "category": "Home Decor",
+        "location": "Chhattisgarh",
+        "price": 2100,
+        "vendors": [
+            {
+                "vendor_id": "dhokragems_cg_08",
+                "stock": 28,
+                "rating": 4.9
+            }
+        ],
+        "description": "Traditional lost-wax metal craft from Chhattisgarh. Used to create stunning tribal figurines and home decor artifacts.",
+        "images": [
+            "dhokra_art_cg.jpg"
+        ],
+        "tags": [
+            "metal",
+            "tribal",
+            "decor",
+            "dhokra"
+        ]
+    },
+    {
+        "id": 49,
+        "name": "Cashew Feni (Tinto Heritage)",
+        "category": "Food (Non-perishable)",
+        "location": "Daman and Diu",
+        "price": 1390,
+        "vendors": [
+            {
+                "vendor_id": "tintoheritage_dd_01",
+                "stock": 120,
+                "rating": 4.4
+            }
+        ],
+        "description": "Tinto Heritage Cashew Feni is a traditional Indian spirit distilled from cashew apples. It offers a unique and exotic taste experience with notes of tropical fruits, nuts, and a hint of earthiness.",
+        "images": [
+            "tinto_cashew_feni.jpg"
+        ],
+        "tags": [
+            "cashew",
+            "feni",
+            "alcohol",
+            "traditional",
+            "non-perishable"
+        ]
+    },
+    {
+        "id": 50,
+        "name": "Daman and Diu Spice Mix",
+        "category": "Food (Non-perishable)",
+        "location": "Daman and Diu",
+        "price": 300,
+        "vendors": [
+            {
+                "vendor_id": "spiceblend_dd_02",
+                "stock": 250,
+                "rating": 4.5
+            }
+        ],
+        "description": "A packaged spice mix featuring locally grown spices like cloves, nutmeg, and cinnamon. This blend can be used for curries and other regional dishes and has a long shelf life when stored properly.",
+        "images": [
+            "daman_diu_spice_mix.jpg"
+        ],
+        "tags": [
+            "spices",
+            "cloves",
+            "nutmeg",
+            "cinnamon",
+            "non-perishable"
+        ]
+    },
+    {
+        "id": 51,
+        "name": "Handloom Cotton Saree",
+        "category": "Apparel",
+        "location": "Daman and Diu",
+        "price": 1800,
+        "vendors": [
+            {
+                "vendor_id": "handloom_dd_03",
+                "stock": 60,
+                "rating": 4.6
+            }
+        ],
+        "description": "Traditional sarees made from handloom cotton, known for their breathability and comfort, ideal for the warm climate of Daman and Diu. These sarees often feature simple but elegant designs.",
+        "images": [
+            "handloom_cotton_saree_dd.jpg"
+        ],
+        "tags": [
+            "saree",
+            "handloom",
+            "cotton",
+            "traditional",
+            "apparel"
+        ]
+    },
+    {
+        "id": 52,
+        "name": "Kashta (Traditional Dress)",
+        "category": "Apparel",
+        "location": "Daman and Diu",
+        "price": 1200,
+        "vendors": [
+            {
+                "vendor_id": "kashta_dd_04",
+                "stock": 80,
+                "rating": 4.5
+            }
+        ],
+        "description": "A traditional garment worn by the local women, made from lightweight cotton fabric. It\u00e2\u20ac\u2122s a simple and comfortable dress suitable for daily wear in the region's tropical climate.",
+        "images": [
+            "kashta_traditional_dress_dd.jpg"
+        ],
+        "tags": [
+            "kashta",
+            "traditional",
+            "cotton",
+            "apparel",
+            "dailywear"
+        ]
+    },
+    {
+        "id": 53,
+        "name": "Terracotta Jewelry Set",
+        "category": "Jewelry",
+        "location": "Daman and Diu",
+        "price": 850,
+        "vendors": [
+            {
+                "vendor_id": "terracotta_jewelry_dd_05",
+                "stock": 90,
+                "rating": 4.7
+            }
+        ],
+        "description": "Jewelry made from terracotta clay, including necklaces, earrings, and bangles, often crafted by local artisans. These pieces are lightweight, eco-friendly, and reflect the culture of the region.",
+        "images": [
+            "terracotta_jewelry_dd.jpg"
+        ],
+        "tags": [
+            "terracotta",
+            "jewelry",
+            "handmade",
+            "eco-friendly",
+            "traditional"
+        ]
+    },
+    {
+        "id": 54,
+        "name": "Silver Anklets with Bells",
+        "category": "Jewelry",
+        "location": "Daman and Diu",
+        "price": 1100,
+        "vendors": [
+            {
+                "vendor_id": "silver_anklets_dd_06",
+                "stock": 70,
+                "rating": 4.6
+            }
+        ],
+        "description": "Simple yet elegant silver anklets, often adorned with small bells or charms, are traditional jewelry items worn by women in Daman and Diu.",
+        "images": [
+            "silver_anklets_dd.jpg"
+        ],
+        "tags": [
+            "silver",
+            "anklets",
+            "traditional",
+            "jewelry",
+            "bells"
+        ]
+    },
+    {
+        "id": 55,
+        "name": "Wooden Decorative Mask",
+        "category": "Home Decor",
+        "location": "Daman and Diu",
+        "price": 950,
+        "vendors": [
+            {
+                "vendor_id": "wooden_crafts_dd_07",
+                "stock": 50,
+                "rating": 4.5
+            }
+        ],
+        "description": "Daman and Diu are known for their finely crafted wooden items, including decorative masks, carved wooden figures, and small furniture pieces. These items reflect the local craftsmanship and culture.",
+        "images": [
+            "wooden_decorative_mask_dd.jpg"
+        ],
+        "tags": [
+            "wooden",
+            "decor",
+            "handcrafted",
+            "mask",
+            "traditional"
+        ]
+    },
+    {
+        "id": 56,
+        "name": "Seashell Wall Hanging",
+        "category": "Home Decor",
+        "location": "Daman and Diu",
+        "price": 600,
+        "vendors": [
+            {
+                "vendor_id": "seashell_decor_dd_08",
+                "stock": 100,
+                "rating": 4.6
+            }
+        ],
+        "description": "Handcrafted home decor items made from seashells, such as photo frames, lamps, and wall hangings. These pieces highlight the coastal culture of Daman and Diu.",
+        "images": [
+            "seashell_wall_hanging_dd.jpg"
+        ],
+        "tags": [
+            "seashell",
+            "decor",
+            "handmade",
+            "coastal",
+            "traditional"
+        ]
+    },
+    {
+        "id": 57,
+        "name": "Aloo Tikki Spice Mix",
+        "category": "Food (Non-perishable)",
+        "location": "Delhi",
+        "price": 95,
+        "vendors": [
+            {
+                "vendor_id": "delhistreetflavors_dl_01",
+                "stock": 180,
+                "rating": 4.3
+            }
+        ],
+        "description": "A pre-packaged spice mix used to make Aloo Tikki, a popular street food in Delhi. Includes dried spices and ingredients for crispy, spiced potato patties.",
+        "images": [
+            "aloo_tikki_spice_mix.jpg"
+        ],
+        "tags": [
+            "spices",
+            "street food",
+            "non-perishable",
+            "ready mix"
+        ]
+    },
+    {
+        "id": 58,
+        "name": "Chana Chaat Mix",
+        "category": "Food (Non-perishable)",
+        "location": "Delhi",
+        "price": 90,
+        "vendors": [
+            {
+                "vendor_id": "tangytreats_dl_02",
+                "stock": 200,
+                "rating": 4.4
+            }
+        ],
+        "description": "Ready-to-use spice mix for Chana Chaat, a tangy chickpea snack. Long shelf life and easy preparation make it a pantry staple in Delhi.",
+        "images": [
+            "chana_chaat_mix.jpg"
+        ],
+        "tags": [
+            "spices",
+            "chickpea",
+            "chaat",
+            "non-perishable"
+        ]
+    },
+    {
+        "id": 59,
+        "name": "Delhi Cotton Kurtas",
+        "category": "Apparel",
+        "location": "Delhi",
+        "price": 850,
+        "vendors": [
+            {
+                "vendor_id": "urbancottons_dl_03",
+                "stock": 75,
+                "rating": 4.5
+            }
+        ],
+        "description": "Comfortable cotton kurtas with vibrant patterns, ideal for Delhi\u00e2\u20ac\u2122s hot summers. Suitable for both men and women.",
+        "images": [
+            "delhi_cotton_kurtas.jpg"
+        ],
+        "tags": [
+            "cotton",
+            "traditional",
+            "unisex",
+            "summerwear"
+        ]
+    },
+    {
+        "id": 60,
+        "name": "Woolen Shawls",
+        "category": "Apparel",
+        "location": "Delhi",
+        "price": 1450,
+        "vendors": [
+            {
+                "vendor_id": "winterloom_dl_04",
+                "stock": 60,
+                "rating": 4.6
+            }
+        ],
+        "description": "Elegant woolen shawls in various colors and textures. A winter essential in Delhi, combining warmth and style.",
+        "images": [
+            "woolen_shawls_delhi.jpg"
+        ],
+        "tags": [
+            "winterwear",
+            "wool",
+            "shawl",
+            "apparel"
+        ]
+    },
+    {
+        "id": 61,
+        "name": "Polki Jewelry",
+        "category": "Jewelry",
+        "location": "Delhi",
+        "price": 5100,
+        "vendors": [
+            {
+                "vendor_id": "polkiexclusive_dl_05",
+                "stock": 22,
+                "rating": 4.8
+            }
+        ],
+        "description": "Exquisite Polki jewelry made with uncut diamonds set in gold or silver. A favorite for weddings and grand occasions in Delhi.",
+        "images": [
+            "polki_jewelry.jpg"
+        ],
+        "tags": [
+            "polki",
+            "diamond",
+            "wedding",
+            "luxury"
+        ]
+    },
+    {
+        "id": 62,
+        "name": "Kundan Necklaces",
+        "category": "Jewelry",
+        "location": "Delhi",
+        "price": 3200,
+        "vendors": [
+            {
+                "vendor_id": "kundangems_dl_06",
+                "stock": 30,
+                "rating": 4.7
+            }
+        ],
+        "description": "Traditional Kundan necklaces featuring gemstones set in gold foil. Popular for festive and bridal wear in Delhi.",
+        "images": [
+            "kundan_necklaces.jpg"
+        ],
+        "tags": [
+            "kundan",
+            "gemstone",
+            "festive",
+            "traditional"
+        ]
+    },
+    {
+        "id": 63,
+        "name": "Brass and Copper Artifacts",
+        "category": "Home Decor",
+        "location": "Delhi",
+        "price": 1150,
+        "vendors": [
+            {
+                "vendor_id": "metalmagic_dl_07",
+                "stock": 48,
+                "rating": 4.5
+            }
+        ],
+        "description": "Handcrafted decorative items made of brass and copper. Reflect Delhi\u00e2\u20ac\u2122s rich artisan legacy with plates, idols, and more.",
+        "images": [
+            "brass_copper_artifacts.jpg"
+        ],
+        "tags": [
+            "brass",
+            "copper",
+            "decor",
+            "craftsmanship"
+        ]
+    },
+    {
+        "id": 64,
+        "name": "Madhubani Paintings",
+        "category": "Home Decor",
+        "location": "Delhi",
+        "price": 1850,
+        "vendors": [
+            {
+                "vendor_id": "folkframes_dl_08",
+                "stock": 35,
+                "rating": 4.6
+            }
+        ],
+        "description": "Colorful and intricate Madhubani paintings often used in Delhi homes to add a traditional, artistic touch to interiors.",
+        "images": [
+            "madhubani_paintings_delhi.jpg"
+        ],
+        "tags": [
+            "paintings",
+            "folk art",
+            "traditional",
+            "wall decor"
+        ]
+    },
+    {
+        "id": 65,
+        "name": "Goan Feni",
+        "category": "Food (Non-perishable)",
+        "location": "Goa",
+        "price": 450,
+        "vendors": [
+            {
+                "vendor_id": "fenispirit_goa_01",
+                "stock": 120,
+                "rating": 4.7
+            }
+        ],
+        "description": "A traditional Goan spirit made from cashew apples, aged in earthen pots. Known for its strong aroma and cultural roots.",
+        "images": [
+            "goan_feni.jpg"
+        ],
+        "tags": [
+            "alcohol",
+            "cashew",
+            "spirit",
+            "traditional"
+        ]
+    },
+    {
+        "id": 66,
+        "name": "Bebinca",
+        "category": "Food (Non-perishable)",
+        "location": "Goa",
+        "price": 350,
+        "vendors": [
+            {
+                "vendor_id": "sweetlayers_goa_02",
+                "stock": 95,
+                "rating": 4.5
+            }
+        ],
+        "description": "A traditional Goan dessert with multiple layers made from coconut milk, eggs, and sugar. Shelf-stable when sealed properly.",
+        "images": [
+            "bebinca.jpg"
+        ],
+        "tags": [
+            "dessert",
+            "coconut",
+            "layered",
+            "sweet"
+        ]
+    },
+    {
+        "id": 67,
+        "name": "Goan Cotton Kurtas",
+        "category": "Apparel",
+        "location": "Goa",
+        "price": 850,
+        "vendors": [
+            {
+                "vendor_id": "coastalkurtas_goa_03",
+                "stock": 70,
+                "rating": 4.3
+            }
+        ],
+        "description": "Comfortable and airy kurtas made from breathable cotton with vibrant tropical patterns, ideal for Goa\u00e2\u20ac\u2122s weather.",
+        "images": [
+            "goa_cotton_kurtas.jpg"
+        ],
+        "tags": [
+            "cotton",
+            "summerwear",
+            "casual",
+            "tropical"
+        ]
+    },
+    {
+        "id": 68,
+        "name": "Feni-Style Jewelry",
+        "category": "Apparel",
+        "location": "Goa",
+        "price": 620,
+        "vendors": [
+            {
+                "vendor_id": "fenibeads_goa_04",
+                "stock": 45,
+                "rating": 4.2
+            }
+        ],
+        "description": "Handcrafted jewelry inspired by cashew nuts, blending metal and beads to reflect Goa\u00e2\u20ac\u2122s Feni culture.",
+        "images": [
+            "feni_jewelry.jpg"
+        ],
+        "tags": [
+            "handcrafted",
+            "beads",
+            "cashew",
+            "unique"
+        ]
+    },
+    {
+        "id": 69,
+        "name": "Goan Silver Jewelry",
+        "category": "Jewelry",
+        "location": "Goa",
+        "price": 1100,
+        "vendors": [
+            {
+                "vendor_id": "silverworks_goa_05",
+                "stock": 55,
+                "rating": 4.6
+            }
+        ],
+        "description": "Elegant silver jewelry crafted by local artisans, featuring fine filigree work popular in Goan markets.",
+        "images": [
+            "silver_jewelry_goa.jpg"
+        ],
+        "tags": [
+            "silver",
+            "filigree",
+            "artisan",
+            "tourist"
+        ]
+    },
+    {
+        "id": 70,
+        "name": "Oxidized Jewelry",
+        "category": "Jewelry",
+        "location": "Goa",
+        "price": 740,
+        "vendors": [
+            {
+                "vendor_id": "oxidgem_goa_06",
+                "stock": 60,
+                "rating": 4.4
+            }
+        ],
+        "description": "Cultural fusion jewelry made from oxidized metals with Indo-Portuguese influence in design.",
+        "images": [
+            "oxidized_jewelry_goa.jpg"
+        ],
+        "tags": [
+            "oxidized",
+            "cultural",
+            "metal",
+            "handcrafted"
+        ]
+    },
+    {
+        "id": 71,
+        "name": "Wooden Masks",
+        "category": "Home Decor",
+        "location": "Goa",
+        "price": 980,
+        "vendors": [
+            {
+                "vendor_id": "tribalmask_goa_07",
+                "stock": 40,
+                "rating": 4.5
+            }
+        ],
+        "description": "Hand-carved wooden masks inspired by Goan tribal art, used in decor and festive traditions.",
+        "images": [
+            "wooden_masks_goa.jpg"
+        ],
+        "tags": [
+            "wood",
+            "tribal",
+            "handcrafted",
+            "mask"
+        ]
+    },
+    {
+        "id": 72,
+        "name": "Brass and Copper Artifacts",
+        "category": "Home Decor",
+        "location": "Goa",
+        "price": 1600,
+        "vendors": [
+            {
+                "vendor_id": "metalcrafts_goa_08",
+                "stock": 38,
+                "rating": 4.8
+            }
+        ],
+        "description": "Decorative trays, idols, and artifacts crafted from brass and copper, reflecting Indo-Portuguese aesthetics.",
+        "images": [
+            "brass_copper_artifacts_goa.jpg"
+        ],
+        "tags": [
+            "brass",
+            "copper",
+            "decor",
+            "heritage"
+        ]
     }
-  ]
-  
+]
