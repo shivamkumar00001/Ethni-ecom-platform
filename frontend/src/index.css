@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1280px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-font-color: rgb(44, 58, 44);
+  --secondary-font-color: rgb(77, 91, 80);
+  --primary-color: #a0c878;
+  --secondary-color: #ddeb9d;
+  --background-color: #fffdf6;
+  --secondary-background-color: #faf6e9;
+}
