@@ -1,10 +1,12 @@
 html,
 body {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   width: 100%;
   max-width: 1280px;
   box-sizing: border-box;
+  font-family: Montserrat;
+  font-size: 1rem;
 }
 
 :root {
@@ -13,5 +15,6 @@ body {
   --primary-color: #a0c878;
   --secondary-color: #ddeb9d;
   --background-color: #fffdf6;
+  --dark-green: rgb(54, 115, 46);
   --secondary-background-color: #faf6e9;
 }
