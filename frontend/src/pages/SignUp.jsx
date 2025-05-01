@@ -14,7 +14,7 @@ const SignUp = () => {
   useEffect(() => {
     let index = 1;
 
-    setInterval(() => {
+    let interval = setInterval(() => {
       for (let i = 0; i < imgs.current.length; i++) {
         document.getElementsByClassName("imgs")[i].style.opacity =
           i != index ? 0 : 1;
@@ -22,6 +22,7 @@ const SignUp = () => {
 
       index = (index + 1) % imgs.current.length;
     }, 6000);
+    return () => clearInterval(interval);
   }, []);
   return (
     <>
