@@ -2,7 +2,7 @@
   width: 100%;
   max-width: 1280px;
   height: 100vh;
-  overflow-y: hidden;
+  min-height: 650px;
   background-color: var(--background-color);
   display: flex;
   position: relative;
@@ -133,7 +133,7 @@ textarea::placeholder {
 
 #form-footer {
   width: 100%;
-  padding: 1rem;
+  padding: 0 1rem;
   font-size: 0.9rem;
   font-weight: 400;
   text-align: center;
@@ -189,6 +189,10 @@ textarea::placeholder {
 }
 
 @media (max-width: 1000px) {
+  #logo {
+    top: 2rem;
+  }
+
   #right-side {
     width: 100%;
   }
@@ -197,5 +201,22 @@ textarea::placeholder {
 @media (max-width: 320px) {
   #form-footer {
     flex-direction: column;
+  }
+}
+
+@media (max-height: 700px) {
+  #logo {
+    top: 1.5rem;
+  }
+  #form {
+    gap: 0.8rem;
+  }
+
+  #label {
+    gap: 0.3rem;
+  }
+
+  #left-side {
+    gap: 1rem;
   }
 }
