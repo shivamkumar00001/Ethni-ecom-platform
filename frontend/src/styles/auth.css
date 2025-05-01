@@ -2,6 +2,7 @@
   width: 100%;
   max-width: 1280px;
   height: 100vh;
+  overflow-y: hidden;
   background-color: var(--background-color);
   display: flex;
   position: relative;
@@ -11,7 +12,7 @@
   position: absolute;
   width: 4rem;
   height: 4rem;
-  top: 3rem;
+  top: 2rem;
   left: 2rem;
   display: flex;
   align-items: flex-end;
@@ -42,8 +43,9 @@
 
 #form-heading {
   width: 100%;
-  padding: 1rem;
+  padding: 0 1rem;
   box-sizing: border-box;
+  margin-top: 1.5rem;
 }
 
 #left-side #main-heading {
@@ -61,7 +63,7 @@
 
 #form {
   width: 100%;
-  padding: 1rem;
+  padding: 0 1rem;
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
