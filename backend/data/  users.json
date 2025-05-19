@@ -1,0 +1,44 @@
+[
+  {
+    "firstName": "Ankush",
+    "lastName": "Goswami",
+    "email": "ankushgoswami1904@gmail.com",
+    "password": "scrypt:32768:8:1$qGUqySrHA3HZSaTQ$a01a5574f044ceb51b9e2707f4025c1082ff72d94c98586fec4ef2e5edc5ef0a4c0a457217330f1ecb6784dd403f873b3debdcb2c879a803193af66ad6f62c59",
+    "role": "vendor"
+  },
+  {
+    "firstName": "Antariksh ",
+    "lastName": "Singh",
+    "email": "antarikshsingh18@gmail.com",
+    "password": "scrypt:32768:8:1$dB9sjC7uaI4Fv1HY$62c0dacfbe06d08cd86e2a1d21cf7e0d83ea43a1f2423eee21560439dfac07fba6251d5cd7411982b000d9a806087939d48dcc64e45ec4f9454b8ae0cfef77b0",
+    "role": "customer"
+  },
+  {
+    "firstName": "Ankush",
+    "lastName": "Goswami",
+    "email": "thisisankushgoswami@gmail.com",
+    "password": "scrypt:32768:8:1$AKXFQiB0FkdWD0PM$624ad53001c1db6d9fb2f9ecf3b016b3525cdf93431d95b6f123c54c8cbb2db3403daee573a5fc4ae99c952653962643a87aa7a4527f42eda11ebd2cc29de3c9",
+    "role": "customer"
+  },
+  {
+    "firstName": "Ankush",
+    "lastName": "Goswami",
+    "email": "ankush@gmail.com",
+    "password": "scrypt:32768:8:1$VRUM9mYwYyhN5Yvk$096c511d3ed940f562dee06aadda6bd8b301a66ad12d018f1d7e34fc702e8e91b04eebf25003e51395170acde282628a8c37fa17d5da31947cad1a14692fff9b",
+    "role": "customer"
+  },
+  {
+    "firstName": "Ankush",
+    "lastName": "Goswami",
+    "email": "ankushgoswami@gmail.com",
+    "password": "scrypt:32768:8:1$jCwdfoWR2PTcRefg$f6af969d00da0e99e7234166bfe313827ef6514cab79ed40b068ad8e71c46a4ed13e14dbd72742830ae024434d3aac49401f7c12672a596449bb27d0bca89805",
+    "role": "customer"
+  },
+  {
+    "firstName": "Hrishi",
+    "lastName": "Saikia",
+    "email": "hrishisaikia02@gmail.com",
+    "password": "scrypt:32768:8:1$G83c0HlL702wPER1$3159a6c0a88f13a2dc9a8b8e5cf0385410b48baff351eec400237582af2b3460dab458b84b37c66eb2ce83b6686089a3bb8e99879a3df23442e4446441181dc0",
+    "role": "customer"
+  }
+]
